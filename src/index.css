@@ -1,0 +1,106 @@
+* {
+  max-width: 100%;
+  font-family: Lato, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  background: rgba(2, 2, 2, 0.068);
+  width: 300px;
+  height: 40px;
+
+
+}
+
+.search-bar {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.note {
+  font-size: 20px;
+  border: 2px solid rgb(31, 29, 29);
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border-radius: 7px;
+}
+
+.note-text {
+  margin-left: 10px;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.note-footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  color: rgb(0, 166, 255);
+  margin-left: auto;
+}
+
+.delete-icon:hover {
+  font-size: 22px;
+  transition: 0.5s ease-in-out;
+
+}
+
+.note-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.new {
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 400px;
+}
+
+.container {
+  display: flex;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+  font-size: 20px;
+  padding: 25px 25px 25px 25px;
+}
+
+.save {
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: rgb(0, 166, 255);
+  border-radius: 15px;
+}
+
+.save:hover {
+  font-size: 19px;
+  transition: 0.5s ease-out;
+}
+
+.title {
+  font-size: 25px;
+}
